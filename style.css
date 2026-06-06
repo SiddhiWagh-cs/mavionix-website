@@ -129,7 +129,7 @@ p{
     }
 
     .contact form{
-        width:100%;
+        width:90%;
     }
 
     .navbar{
@@ -154,7 +154,45 @@ p{
     .navbar{
         padding-top:40px;
     }
+
+    .card,
+    .service-card,
+    .portfolio-card{
+        width:100%;
+        max-width:320px;
+    }
+
+    .about,
+    .services,
+    .portfolio,
+    .contact{
+        padding:60px 20px;
+    }
+
+    .hero{
+        padding:50px 20px;
+    }
+
+    .hero-content h1{
+        font-size:42px;
+    }
+
+    .hero-content h2{
+    font-size:28px;
+    }
+
+    .hero-content p{
+        font-size:16px;
+    }
+    
+    .hero-buttons{
+        flex-direction:column;
+        align-items:center;
+    }
 }
+
+
+
 
 
 .about{
