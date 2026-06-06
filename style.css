@@ -114,22 +114,32 @@ p{
     }
 
     .cards{
-    flex-direction:column;
-    align-items:center;
+        flex-direction:column;
+        align-items:center;
     }
 
     .service-cards{
-    flex-direction:column;
-    align-items:center;
+        flex-direction:column;
+        align-items:center;
     }
 
     .portfolio-cards{
-    flex-direction:column;
-    align-items:center;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .contact{
+        padding:60px 15px;
+    }
+
+    .contact h2{
+        font-size:32px;
     }
 
     .contact form{
-        width:90%;
+        width:100%;
+        max-width:400px;
+        margin:auto;
     }
 
     .navbar{
@@ -143,8 +153,8 @@ p{
     }
 
     .switch{
-    display:flex;
-    align-items:center;
+        display:flex;
+        align-items:center;
     }
 
     .switch input{
@@ -164,8 +174,7 @@ p{
 
     .about,
     .services,
-    .portfolio,
-    .contact{
+    .portfolio{
         padding:60px 20px;
     }
 
@@ -178,7 +187,7 @@ p{
     }
 
     .hero-content h2{
-    font-size:28px;
+        font-size:28px;
     }
 
     .hero-content p{
@@ -190,10 +199,6 @@ p{
         align-items:center;
     }
 }
-
-
-
-
 
 .about{
     padding:80px;
@@ -371,6 +376,7 @@ p{
 
 .contact form{
     width:40%;
+    max-width:600px;
     margin:auto;
 
     display:flex;
@@ -379,11 +385,17 @@ p{
 }
 
 .contact input,
-.contact textarea{
+.contact textarea,
+.contact button{
+    width:100%;
     padding:15px;
-    border:1px solid gray;
     border-radius:5px;
     font-size:16px;
+}
+
+.contact input,
+.contact textarea{
+    border:1px solid gray;
 }
 
 .contact textarea{
@@ -391,11 +403,9 @@ p{
 }
 
 .contact button{
-    padding:15px;
     background-color:#ac4bff;
     color:white;
     border:none;
-    border-radius:5px;
     cursor:pointer;
 }
 
